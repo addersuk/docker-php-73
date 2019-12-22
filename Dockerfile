@@ -13,7 +13,7 @@ RUN pecl install ast
 RUN docker-php-ext-enable ast
 RUN pecl install mongodb
 RUN docker-php-ext-enable mongodb
-RUN pecl install xdebug-2.6.0alpha1
+RUN pecl install xdebug-2.9.0
 RUN docker-php-ext-enable xdebug
 RUN curl --silent --show-error https://getcomposer.org/installer | php
 
